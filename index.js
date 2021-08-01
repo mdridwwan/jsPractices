@@ -30,6 +30,8 @@ var today = new Date();
 console.log(typeof today);
 var rPrice = 0.1;
 var tPrice = 0.2;
+// integer: 1 2 3 4 5 6 7 8 9 ;
+//Float: 2.1 3.1 .234 43.3 45.32 345.35;
 var total = rPrice / tPrice;
 total = total.toFixed(1);
 total = parseFloat(total);
